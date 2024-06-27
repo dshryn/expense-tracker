@@ -69,8 +69,5 @@ This Flutter application is created to assist users in managing their finances b
 - **widgets/chart/chart_bar.dart**: Represents individual bars in the chart.
 - **widgets/new_expense.dart**: Overlay form for adding new expenses.
 
-### Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
 
 
