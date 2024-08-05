@@ -1,8 +1,8 @@
-## Expense Tracker App with Flutter
+# Expense Tracker App with Flutter
 
 This Flutter application is created to assist users in managing their finances by keeping track of and organizing their expenses. The app features a user-friendly interface that allows for easy addition, viewing, and deletion of expenses, as well as graphical representations of spending trends.
 
-### Features
+## Features
 
 - **Expense Management**: Easily add, view, and delete expenses.
 - **Categories**: Organize expenses into Food, Travel, Leisure, and Work.
@@ -10,14 +10,14 @@ This Flutter application is created to assist users in managing their finances b
 - **Preserved native iOS and Android interfaces**: Displays platform-native styles for components like Alert-DialogueBoxes.
 - **Chart Visualization**: Visualize your expenses to understand your spending habits better.
 
-### App Structure
+## App Structure
 
-#### Sections
+### Sections
 
 - **Main Screen**: Displays a list of expenses and a summary chart.
 - **Modal Overlay**: Form for adding new expenses.
 
-#### Flutter Concepts Used
+### Flutter Concepts Used
 
 - **State Management**: Uses native Flutter implementation with StatefulWidget and setState.
 - **Navigation**: Implements modal bottom sheets for input forms.
@@ -26,19 +26,19 @@ This Flutter application is created to assist users in managing their finances b
 - **Asset Management**: Efficiently manages icons and other assets with careful attention to related Element Tree.
   
 
-### Setup and Installation
+## Setup and Installation
 
-#### Prerequisites
+### Prerequisites
 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) installed on your machine.
 - An editor like [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/).
 
-#### Steps
+### Steps
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/dshryn/expense_tracker.git
-    cd expense_tracker
+    git clone https://github.com/dshryn/expense-tracker.git
+    cd expense-tracker
     ```
 
 2. **Install Dependencies**:
@@ -51,7 +51,7 @@ This Flutter application is created to assist users in managing their finances b
     flutter run
     ```
 
-### Usage
+## Usage
 
 1. Launch the app on your device or emulator.
 2. Press the "+" button to add a new expense.
@@ -59,7 +59,7 @@ This Flutter application is created to assist users in managing their finances b
 4. View the list of expenses and the corresponding chart.
 5. Swipe left or right on an expense to delete it, with an option to undo.
 
-### File Structure
+## File Structure
 
 - **main.dart**: Entry point of the application.
 - **models/expense.dart**: Defines the Expense model and categories.
